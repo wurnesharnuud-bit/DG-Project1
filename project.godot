@@ -11,13 +11,14 @@ config_version=5
 [application]
 
 config/name="DG-Project1"
+run/main_scene="uid://s2pgnrwrgixc"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://GFX/icon.svg"
 
 [display]
 
-window/size/viewport_width=1920
-window/size/viewport_height=1080
+window/size/viewport_width=640
+window/size/viewport_height=360
 
 [dotnet]
 
