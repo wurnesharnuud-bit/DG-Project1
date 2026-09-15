@@ -9,7 +9,7 @@ size = Vector2(32, 48)
 [sub_resource type="CircleShape2D" id="CircleShape2D_vwuq5"]
 radius = 120.26637
 
-[node name="player_minor" type="CharacterBody2D" unique_id=1871182635]
+[node name="Player_minor" type="CharacterBody2D" unique_id=1871182635]
 collision_layer = 4
 script = ExtResource("1_vwuq5")
 use_alt_inputs = true
