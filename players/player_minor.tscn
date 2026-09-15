@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://fym0jnv7l3rr"]
+
+[ext_resource type="Script" uid="uid://bvmw13vj4iff0" path="res://scripts/gravity.gd" id="1_v3ko0"]
+[ext_resource type="Script" uid="uid://drf2xqqn011mp" path="res://scripts/player_minor.gd" id="1_vwuq5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vwuq5"]
+size = Vector2(32, 48)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_vwuq5"]
+radius = 120.26637
+
+[node name="Player_minor" type="CharacterBody2D" unique_id=1871182635]
+collision_layer = 4
+script = ExtResource("1_vwuq5")
+use_alt_inputs = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1803068620]
+position = Vector2(0, -24)
+shape = SubResource("RectangleShape2D_vwuq5")
+debug_color = Color(0.61229134, 0.04429339, 0.57820785, 0.41960785)
+
+[node name="Gravity" type="Node" parent="." unique_id=583011033 node_paths=PackedStringArray("player")]
+script = ExtResource("1_v3ko0")
+player = NodePath("..")
+
+[node name="MoveArea" type="Area2D" parent="." unique_id=233325382]
+collision_layer = 0
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MoveArea" unique_id=1750950747]
+shape = SubResource("CircleShape2D_vwuq5")
+debug_color = Color(0.37419912, 0.5874036, 0.5085927, 0.14901961)
+
+[connection signal="body_entered" from="MoveArea" to="." method="_on_player_detected"]
+[connection signal="body_exited" from="MoveArea" to="." method="_on_player_left"]
