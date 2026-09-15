@@ -1,0 +1,38 @@
+extends CharacterBody2D
+class_name Player
+
+@export_group("Stats")
+@export var speed: float = 8000
+@export var jump_height: float = -550
+@export var use_alt_inputs: bool = false
+var can_move: bool = true
+
+func _physics_process(delta: float) -> void:
+	# Moving
+	if can_move:
+		var direction = input_movement()
+		velocity.x = (speed * direction) * delta
+		# Jumping
+		check_jump()
+	# Apply updated movement
+	move_and_slide()
+
+#region - Functions
+# Checks direction 
+# (-1 if left, 1 if right, 0 if neither/both)
+func input_movement():
+	var input_direction : float
+	# Checks either WASD or Keycode inputs
+	if use_alt_inputs: input_direction = Input.get_axis("move_left_2", "move_right_2")
+	else: 			   input_direction = Input.get_axis("move_left_1", "move_right_1")
+	# ----
+	return input_direction
+func check_jump():
+	if use_alt_inputs:
+		if Input.is_action_just_pressed("move_up_2"): jump()
+	else:
+		if Input.is_action_just_pressed("move_up_1"): jump()
+# If on floor, jump
+func jump():
+	if is_on_floor(): velocity.y = jump_height
+#endregion

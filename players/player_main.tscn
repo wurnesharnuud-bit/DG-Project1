@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://3ufrjjk8gxog"]
+
+[ext_resource type="Script" uid="uid://bv6kgjdyjsjta" path="res://scripts/player_main.gd" id="1_xgln8"]
+[ext_resource type="Script" uid="uid://bvmw13vj4iff0" path="res://scripts/gravity.gd" id="2_qirnc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p637n"]
+size = Vector2(32, 48)
+
+[node name="PlayerMain" type="CharacterBody2D" unique_id=506881735]
+collision_layer = 2
+script = ExtResource("1_xgln8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=327398606]
+position = Vector2(0, -24)
+shape = SubResource("RectangleShape2D_p637n")
+
+[node name="Gravity" type="Node" parent="." unique_id=786894705 node_paths=PackedStringArray("player")]
+script = ExtResource("2_qirnc")
+player = NodePath("..")
