@@ -1,6 +1,14 @@
 [gd_scene format=3 uid="uid://bqkhkfrqs41bw"]
 
 [ext_resource type="Script" uid="uid://bkbiaty6b7skf" path="res://Scripts/main.gd" id="1_rd6un"]
+[ext_resource type="PackedScene" uid="uid://o2v70bqocyww" path="res://Resources/PlayerMain.res" id="2_1pa55"]
+[ext_resource type="PackedScene" uid="uid://c0viu6viwmsr7" path="res://Resources/PlayerMinor.res" id="3_vvbib"]
 
 [node name="main" type="Node2D" unique_id=1260801876]
 script = ExtResource("1_rd6un")
+
+[node name="PlayerMain" parent="." unique_id=1529205393 instance=ExtResource("2_1pa55")]
+position = Vector2(241, 146)
+
+[node name="CharacterBody2D" parent="." unique_id=1696118705 instance=ExtResource("3_vvbib")]
+position = Vector2(241, 146)
