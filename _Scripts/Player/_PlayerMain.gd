@@ -16,6 +16,10 @@ func _physics_process(delta: float) -> void:
 		check_jump()
 	# Apply updated movement
 	move_and_slide()
+	
+	# Out-of-bounds Fix
+	if global_position.y < 1000: 
+		get_tree().change_scene_to_file("res://_Levels/Level_0_Tutorial.tscn")
 
 #region - Functions
 # Checks direction 
