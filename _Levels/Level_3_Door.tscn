@@ -39,7 +39,7 @@ position = Vector2(16, 256)
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=191208544]
 z_index = 1
-position = Vector2(320, 184)
+position = Vector2(319, 181)
 
 [node name="TileMap" type="TileMapLayer" parent="." unique_id=1595448357]
 z_index = 1

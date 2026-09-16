@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://poteijjvpsrs"]
+
+[ext_resource type="Texture2D" uid="uid://fgm00dtliisv" path="res://Assets/endscreen.png" id="1_vxmim"]
+
+[node name="WinScreen" type="Node2D" unique_id=470672986]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=685975767]
+z_index = 1
+position = Vector2(320, 184)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1890376375]
+position = Vector2(320, 184)
+scale = Vector2(2, 2)
+texture = ExtResource("1_vxmim")
+
+[node name="Label" type="Label" parent="." unique_id=608419230]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 280.0
+offset_top = 176.0
+offset_right = 416.0
+offset_bottom = 235.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "You win! :)"
