@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dfyjn12j1p3kc"
-path="res://.godot/imported/background image.png-d6666b05cce7d99a52e6398fd9a372c5.ctex"
+uid="uid://cg60lutbabo4l"
+path="res://.godot/imported/level1enemy.png-2d259b2dcfa1dbd89e9fa7a7f147e7d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/background image.png"
-dest_files=["res://.godot/imported/background image.png-d6666b05cce7d99a52e6398fd9a372c5.ctex"]
+source_file="res://assets/level1enemy.png"
+dest_files=["res://.godot/imported/level1enemy.png-2d259b2dcfa1dbd89e9fa7a7f147e7d5.ctex"]
 
 [params]
 
