@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://deiy6trjdykx8"
-path="res://.godot/imported/Level2 ButtonPressed.png-197e74d6e6843a760cf4553656e8c531.ctex"
+uid="uid://dmptas4f8375w"
+path="res://.godot/imported/level3Goal.png-0cbc04716d93ffc19e3596ba9324a375.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Level2 ButtonPressed.png"
-dest_files=["res://.godot/imported/Level2 ButtonPressed.png-197e74d6e6843a760cf4553656e8c531.ctex"]
+source_file="res://assets/level3Goal.png"
+dest_files=["res://.godot/imported/level3Goal.png-0cbc04716d93ffc19e3596ba9324a375.ctex"]
 
 [params]
 

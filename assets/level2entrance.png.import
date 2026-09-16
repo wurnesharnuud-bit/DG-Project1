@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cej4wububij5m"
-path="res://.godot/imported/level2entrance.png-9119a2a0468769f3ffdbbaf256558e5d.ctex"
+path="res://.godot/imported/level2entrance.png-8aaa20e974af89a044c50ccebc887902.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/level2entrance.png"
-dest_files=["res://.godot/imported/level2entrance.png-9119a2a0468769f3ffdbbaf256558e5d.ctex"]
+source_file="res://assets/level2entrance.png"
+dest_files=["res://.godot/imported/level2entrance.png-8aaa20e974af89a044c50ccebc887902.ctex"]
 
 [params]
 
