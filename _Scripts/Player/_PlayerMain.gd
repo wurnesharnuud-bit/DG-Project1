@@ -6,16 +6,24 @@ class_name Player
 @export var jump_height: float = -550
 @export var use_alt_inputs: bool = false
 var can_move: bool = true
+var dash:float = 1.0
+var CanDash:bool = true
 
 func _physics_process(delta: float) -> void:
 	# Moving
 	if can_move:
 		var direction = input_movement()
-		velocity.x = (speed * direction) * delta
+		velocity.x = (speed * direction) * delta * dash
 		# Jumping
 		check_jump()
 	# Apply updated movement
 	move_and_slide()
+	
+	if Input.is_action_just_pressed("dash"):
+		Dash()
+	
+	if dash > 1.0:
+		dash -= 0.1*delta
 	
 	# Out-of-bounds Fix
 	if global_position.y > 1000: 
@@ -31,6 +39,15 @@ func input_movement():
 	else: 			   input_direction = Input.get_axis("move_left_1", "move_right_1")
 	# ----
 	return input_direction
+
+func Dash():
+	if CanDash:
+		dash = 2.0
+		CanDash = false
+		await get_tree().create_timer(0.5).timeout
+		dash = 1.0
+		CanDash = true
+
 func check_jump():
 	if use_alt_inputs:
 		if Input.is_action_just_pressed("move_up_2"): jump()
