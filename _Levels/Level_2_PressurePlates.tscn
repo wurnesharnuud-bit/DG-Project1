@@ -1,11 +1,11 @@
 [gd_scene format=4 uid="uid://t5uqd2hlarjs"]
 
-[ext_resource type="Texture2D" uid="uid://bqyts2lh15f6e" path="res://Assets/Tiles/block.png" id="1_bg8rj"]
+[ext_resource type="Texture2D" uid="uid://bqyts2lh15f6e" path="res://Assets/tiles/block.png" id="1_bg8rj"]
 [ext_resource type="PackedScene" uid="uid://o2v70bqocyww" path="res://Resources/PlayerMain.res" id="2_722w0"]
 [ext_resource type="PackedScene" uid="uid://c0viu6viwmsr7" path="res://Resources/PlayerMinor.res" id="3_rl33f"]
 [ext_resource type="Texture2D" uid="uid://cmhiv33oexq6d" path="res://GFX/Background/bck.png" id="5_722w0"]
-[ext_resource type="PackedScene" path="res://Resources/PlateController.res" id="5_rl33f"]
-[ext_resource type="PackedScene" path="res://Resources/PressurePlate.res" id="6_dvbne"]
+[ext_resource type="PackedScene" uid="uid://bj0yovb8w0x5r" path="res://Resources/PlateController.res" id="5_rl33f"]
+[ext_resource type="PackedScene" uid="uid://bnb27bdrgcrfq" path="res://Resources/PressurePlate.res" id="6_dvbne"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bg8rj"]
 texture = ExtResource("1_bg8rj")
