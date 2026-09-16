@@ -3,7 +3,10 @@
 [ext_resource type="PackedScene" uid="uid://o2v70bqocyww" path="res://Resources/PlayerMain.res" id="1_rtlvf"]
 [ext_resource type="PackedScene" uid="uid://c0viu6viwmsr7" path="res://Resources/PlayerMinor.res" id="2_7pcum"]
 [ext_resource type="Texture2D" uid="uid://cmhiv33oexq6d" path="res://GFX/Background/bck.png" id="4_rtlvf"]
-[ext_resource type="Texture2D" uid="uid://bqyts2lh15f6e" path="res://Assets/Tiles/block.png" id="4_yoqxr"]
+[ext_resource type="Texture2D" uid="uid://bqyts2lh15f6e" path="res://Assets/tiles/block.png" id="4_yoqxr"]
+[ext_resource type="PackedScene" uid="uid://dnm01508jo5n1" path="res://Resources/DoorController.res" id="6_k6l5v"]
+[ext_resource type="PackedScene" uid="uid://uey6vrqk81st" path="res://Resources/FinalDoor.res" id="7_h8knc"]
+[ext_resource type="PackedScene" uid="uid://ciiq7gn434j1l" path="res://Resources/NestArea.tscn" id="8_ql216"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bg8rj"]
 texture = ExtResource("4_yoqxr")
@@ -47,3 +50,15 @@ tile_set = SubResource("TileSet_722w0")
 position = Vector2(315.667, 173.24997)
 scale = Vector2(0.508102, 0.50810194)
 texture = ExtResource("4_rtlvf")
+
+[node name="DoorController" parent="." unique_id=1243500776 instance=ExtResource("6_k6l5v")]
+
+[node name="FinalDoor" parent="DoorController" unique_id=1599685994 instance=ExtResource("7_h8knc")]
+position = Vector2(600, 248)
+
+[node name="NestArea" parent="DoorController" unique_id=1463698863 instance=ExtResource("8_ql216")]
+position = Vector2(320, 256)
+
+[connection signal="body_entered" from="DoorController/FinalDoor" to="DoorController" method="_on_final_door_entered"]
+[connection signal="body_entered" from="DoorController/NestArea" to="DoorController" method="_on_nest_entered"]
+[connection signal="body_exited" from="DoorController/NestArea" to="DoorController" method="_on_nest_exited"]
