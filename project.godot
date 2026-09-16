@@ -22,8 +22,8 @@ Flag="*uid://wpebghkvftw4"
 
 [display]
 
-window/size/viewport_width=640
-window/size/viewport_height=360
+window/size/viewport_width=1920
+window/size/viewport_height=1080
 
 [dotnet]
 
