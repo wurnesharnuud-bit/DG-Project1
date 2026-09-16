@@ -29,7 +29,7 @@ func spawn_enemy():
 	# Instantiate Enemy
 	var enemy_instance = enemy.instantiate()
 	enemy_instance.global_position = Vector2(global_position.x, global_position.y + random_y)
-	get_parent().add_child(enemy_instance)
+	get_parent().add_child.call_deferred(enemy_instance)
 	#endregion
 	#region Spawn Cooldown
 	# Update enemy count

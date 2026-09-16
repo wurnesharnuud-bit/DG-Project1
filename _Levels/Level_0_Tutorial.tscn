@@ -39,6 +39,7 @@ position = Vector2(40, 288)
 z_index = 1
 position = Vector2(584, 240)
 NewRoom = "res://_Levels/Level_1_HarmingWinds.tscn"
+NextLocation = "Winds"
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=859415882]
 z_index = 1
