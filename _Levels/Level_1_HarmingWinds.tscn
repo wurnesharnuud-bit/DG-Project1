@@ -1,10 +1,10 @@
 [gd_scene format=4 uid="uid://s2pgnrwrgixc"]
 
-[ext_resource type="Texture2D" uid="uid://bqyts2lh15f6e" path="res://Assets/tiles/block.png" id="1_puxvp"]
+[ext_resource type="Texture2D" uid="uid://bqyts2lh15f6e" path="res://Assets/Tiles/block.png" id="1_puxvp"]
 [ext_resource type="PackedScene" uid="uid://o2v70bqocyww" path="res://Resources/PlayerMain.res" id="2_7n1fy"]
 [ext_resource type="PackedScene" uid="uid://c0viu6viwmsr7" path="res://Resources/PlayerMinor.res" id="3_4tlb3"]
 [ext_resource type="PackedScene" uid="uid://ctrirppppgna3" path="res://Resources/AreaRoomSwitch.res" id="4_hckng"]
-[ext_resource type="PackedScene" uid="uid://yvj6psoclcqf" path="res://Resources/EnemySpawner.res" id="5_ekhi7"]
+[ext_resource type="PackedScene" path="res://Resources/EnemySpawner.res" id="5_ekhi7"]
 [ext_resource type="Texture2D" uid="uid://cmhiv33oexq6d" path="res://GFX/Background/bck.png" id="6_nhtv3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_l44nc"]
