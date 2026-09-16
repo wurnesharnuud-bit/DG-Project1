@@ -4,7 +4,8 @@
 [ext_resource type="PackedScene" uid="uid://o2v70bqocyww" path="res://Resources/PlayerMain.res" id="2_7n1fy"]
 [ext_resource type="PackedScene" uid="uid://c0viu6viwmsr7" path="res://Resources/PlayerMinor.res" id="3_4tlb3"]
 [ext_resource type="PackedScene" uid="uid://ctrirppppgna3" path="res://Resources/AreaRoomSwitch.res" id="4_hckng"]
-[ext_resource type="PackedScene" uid="uid://yvj6psoclcqf" path="res://Resources/EnemySpawner.res" id="5_ekhi7"]
+[ext_resource type="PackedScene" path="res://Resources/EnemySpawner.res" id="5_ekhi7"]
+[ext_resource type="Texture2D" uid="uid://cmhiv33oexq6d" path="res://GFX/Background/bck.png" id="6_nhtv3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_l44nc"]
 texture = ExtResource("1_puxvp")
@@ -51,3 +52,8 @@ tile_set = SubResource("TileSet_nhtv3")
 
 [node name="EnemySpawner" parent="." unique_id=2102564411 instance=ExtResource("5_ekhi7")]
 position = Vector2(640, 24)
+
+[node name="Bck" type="Sprite2D" parent="." unique_id=1699328935]
+position = Vector2(315.667, 173.24997)
+scale = Vector2(0.508102, 0.50810194)
+texture = ExtResource("6_nhtv3")
