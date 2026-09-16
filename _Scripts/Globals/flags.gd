@@ -10,18 +10,19 @@ extends Node
 # 
 # Contact me if you need more flag types, such as floats etc.
 
-@export var Loc:Dictionary[String, int] = {
-	"CurLevel": 0 # 0 = Menu/Settings etc. 1..n = In-game levels
+@export var Loc:Dictionary[String, String] = {
+	"CurLevel": "Main" # String Literal, Location
 	
 	
 }
 
 ## Flags used in per-level effects
 @export var s:Dictionary[String, bool] = {
-	
-	"HasFinishedLevel1": false, # Clear Level flags
-	"HasFinishedLevel2": false,
-	"HasFinishedLevel3": false,
+	# Clear Level flags
+	"HasFinishedLevel0": false, #Tutorial
+	"HasFinishedLevel1": false, #Winds
+	"HasFinishedLevel2": false, #Plates
+	"HasFinishedLevel3": false, #Door
 	
 	
 	

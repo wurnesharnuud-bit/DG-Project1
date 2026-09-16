@@ -39,6 +39,8 @@ position = Vector2(200, 232)
 [node name="AreaRoomSwitch" parent="." unique_id=424667009 instance=ExtResource("4_hckng")]
 z_index = 1
 position = Vector2(584, 240)
+ThisIs = "Winds"
+NextLocation = "Winds"
 NewRoom = "res://_Levels/Level_2_PressurePlates.tscn"
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=859415882]
