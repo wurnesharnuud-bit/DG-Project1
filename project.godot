@@ -18,6 +18,7 @@ config/icon="res://GFX/icon.svg"
 [autoload]
 
 SFX="*uid://b0yrqb2us6nky"
+Flag="*uid://wpebghkvftw4"
 
 [display]
 
