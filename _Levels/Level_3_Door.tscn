@@ -1,12 +1,11 @@
-[gd_scene format=4 uid="uid://t5uqd2hlarjs"]
+[gd_scene format=4 uid="uid://bg6q80o448jva"]
 
-[ext_resource type="Texture2D" uid="uid://bqyts2lh15f6e" path="res://assets/tiles/block.png" id="1_bg8rj"]
-[ext_resource type="PackedScene" uid="uid://o2v70bqocyww" path="res://Resources/PlayerMain.res" id="2_722w0"]
-[ext_resource type="PackedScene" uid="uid://c0viu6viwmsr7" path="res://Resources/PlayerMinor.res" id="3_rl33f"]
-[ext_resource type="PackedScene" uid="uid://ctrirppppgna3" path="res://Resources/AreaRoomSwitch.res" id="4_dvbne"]
+[ext_resource type="PackedScene" uid="uid://o2v70bqocyww" path="res://Resources/PlayerMain.res" id="1_rtlvf"]
+[ext_resource type="PackedScene" uid="uid://c0viu6viwmsr7" path="res://Resources/PlayerMinor.res" id="2_7pcum"]
+[ext_resource type="Texture2D" uid="uid://bqyts2lh15f6e" path="res://assets/tiles/block.png" id="4_yoqxr"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bg8rj"]
-texture = ExtResource("1_bg8rj")
+texture = ExtResource("4_yoqxr")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
@@ -23,21 +22,13 @@ physics_layer_0/collision_layer = 1
 physics_layer_0/collision_mask = 6
 sources/0 = SubResource("TileSetAtlasSource_bg8rj")
 
-[node name="Level_2_PressurePlates" type="Node2D" unique_id=608067449]
+[node name="Level_3_Door" type="Node2D" unique_id=608067449]
 
-[node name="PlayerMain" parent="." unique_id=1529205393 instance=ExtResource("2_722w0")]
-position = Vector2(168, 256)
+[node name="PlayerMain" parent="." unique_id=1529205393 instance=ExtResource("1_rtlvf")]
+position = Vector2(336, 32)
 
-[node name="PlayerMinor" parent="." unique_id=1696118705 instance=ExtResource("3_rl33f")]
-position = Vector2(128, 256)
-
-[node name="AreaRoomSwitch" parent="." unique_id=424667009 instance=ExtResource("4_dvbne")]
-position = Vector2(64, 192)
-NewRoom = "res://_Levels/Level_1_HarmingWinds.tscn"
-
-[node name="AreaRoomSwitch2" parent="." unique_id=293666494 instance=ExtResource("4_dvbne")]
-position = Vector2(640, 192)
-NewRoom = "res://_Levels/Level_3_Door.tscn"
+[node name="PlayerMinor" parent="." unique_id=1696118705 instance=ExtResource("2_7pcum")]
+position = Vector2(264, 24)
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=191208544]
 position = Vector2(320, 184)
