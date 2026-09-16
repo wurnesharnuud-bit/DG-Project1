@@ -31,11 +31,11 @@ z_index = 1
 
 [node name="PlayerMain" parent="." unique_id=1529205393 instance=ExtResource("1_rtlvf")]
 z_index = 1
-position = Vector2(336, 32)
+position = Vector2(56, 256)
 
 [node name="PlayerMinor" parent="." unique_id=1696118705 instance=ExtResource("2_7pcum")]
 z_index = 1
-position = Vector2(264, 24)
+position = Vector2(16, 256)
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=191208544]
 z_index = 1

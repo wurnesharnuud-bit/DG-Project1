@@ -30,11 +30,11 @@ z_index = 1
 
 [node name="PlayerMain" parent="." unique_id=1529205393 instance=ExtResource("2_7n1fy")]
 z_index = 1
-position = Vector2(336, 248)
+position = Vector2(80, 288)
 
 [node name="PlayerMinor" parent="." unique_id=1696118705 instance=ExtResource("3_4tlb3")]
 z_index = 1
-position = Vector2(200, 232)
+position = Vector2(24, 296)
 
 [node name="AreaRoomSwitch" parent="." unique_id=424667009 instance=ExtResource("4_hckng")]
 z_index = 1
