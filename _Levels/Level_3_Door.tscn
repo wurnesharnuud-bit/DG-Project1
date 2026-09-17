@@ -3,9 +3,10 @@
 [ext_resource type="PackedScene" uid="uid://o2v70bqocyww" path="res://Resources/PlayerMain.res" id="1_rtlvf"]
 [ext_resource type="PackedScene" uid="uid://c0viu6viwmsr7" path="res://Resources/PlayerMinor.res" id="2_7pcum"]
 [ext_resource type="Texture2D" uid="uid://cmhiv33oexq6d" path="res://GFX/Background/bck.png" id="4_rtlvf"]
-[ext_resource type="Texture2D" uid="uid://bqyts2lh15f6e" path="res://Assets/tiles/block.png" id="4_yoqxr"]
+[ext_resource type="Texture2D" uid="uid://bqyts2lh15f6e" path="res://assets/tiles/block.png" id="4_yoqxr"]
 [ext_resource type="PackedScene" uid="uid://dnm01508jo5n1" path="res://Resources/DoorController.res" id="6_k6l5v"]
 [ext_resource type="PackedScene" uid="uid://uey6vrqk81st" path="res://Resources/FinalDoor.res" id="7_h8knc"]
+[ext_resource type="Texture2D" uid="uid://dmptas4f8375w" path="res://assets/level3Goal.png" id="8_k6l5v"]
 [ext_resource type="PackedScene" uid="uid://ciiq7gn434j1l" path="res://Resources/NestArea.tscn" id="8_ql216"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bg8rj"]
@@ -58,6 +59,11 @@ position = Vector2(600, 248)
 
 [node name="NestArea" parent="DoorController" unique_id=1463698863 instance=ExtResource("8_ql216")]
 position = Vector2(320, 256)
+
+[node name="Level3Goal" type="Sprite2D" parent="." unique_id=1268461207]
+position = Vector2(300.00006, 22.999998)
+scale = Vector2(0.19230768, 0.1923077)
+texture = ExtResource("8_k6l5v")
 
 [connection signal="body_entered" from="DoorController/FinalDoor" to="DoorController" method="_on_final_door_entered"]
 [connection signal="body_entered" from="DoorController/NestArea" to="DoorController" method="_on_nest_entered"]

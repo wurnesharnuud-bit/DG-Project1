@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cg60lutbabo4l"
-path="res://.godot/imported/level1enemy.png-630210b950692958330565de1d93c99e.ctex"
+path="res://.godot/imported/level1enemy.png-2d259b2dcfa1dbd89e9fa7a7f147e7d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/level1enemy.png"
-dest_files=["res://.godot/imported/level1enemy.png-630210b950692958330565de1d93c99e.ctex"]
+source_file="res://assets/level1enemy.png"
+dest_files=["res://.godot/imported/level1enemy.png-2d259b2dcfa1dbd89e9fa7a7f147e7d5.ctex"]
 
 [params]
 

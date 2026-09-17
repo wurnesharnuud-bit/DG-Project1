@@ -1,11 +1,12 @@
 [gd_scene format=4 uid="uid://t5uqd2hlarjs"]
 
-[ext_resource type="Texture2D" uid="uid://bqyts2lh15f6e" path="res://Assets/tiles/block.png" id="1_bg8rj"]
+[ext_resource type="Texture2D" uid="uid://bqyts2lh15f6e" path="res://assets/tiles/block.png" id="1_bg8rj"]
 [ext_resource type="PackedScene" uid="uid://o2v70bqocyww" path="res://Resources/PlayerMain.res" id="2_722w0"]
 [ext_resource type="PackedScene" uid="uid://c0viu6viwmsr7" path="res://Resources/PlayerMinor.res" id="3_rl33f"]
 [ext_resource type="Texture2D" uid="uid://cmhiv33oexq6d" path="res://GFX/Background/bck.png" id="5_722w0"]
 [ext_resource type="PackedScene" uid="uid://bj0yovb8w0x5r" path="res://Resources/PlateController.res" id="5_rl33f"]
 [ext_resource type="PackedScene" uid="uid://bnb27bdrgcrfq" path="res://Resources/PressurePlate.res" id="6_dvbne"]
+[ext_resource type="Texture2D" uid="uid://c15ivxsf56can" path="res://assets/level2 Goal.png" id="7_dvbne"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bg8rj"]
 texture = ExtResource("1_bg8rj")
@@ -63,3 +64,8 @@ position = Vector2(488, 256)
 position = Vector2(315.667, 173.24997)
 scale = Vector2(0.508102, 0.50810194)
 texture = ExtResource("5_722w0")
+
+[node name="Level2Goal" type="Sprite2D" parent="." unique_id=466094111]
+position = Vector2(306.00012, 34.000015)
+scale = Vector2(0.20588237, 0.20588236)
+texture = ExtResource("7_dvbne")
