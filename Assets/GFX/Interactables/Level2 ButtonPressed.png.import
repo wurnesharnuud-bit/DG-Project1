@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://deiy6trjdykx8"
-path="res://.godot/imported/Level2 ButtonPressed.png-67d729908f4d711b8064679c56acae56.ctex"
+path="res://.godot/imported/Level2 ButtonPressed.png-d02c94fecf0547155fd373745e7a1aa5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/GFX/Interactables/Level2 ButtonPressed.png"
-dest_files=["res://.godot/imported/Level2 ButtonPressed.png-67d729908f4d711b8064679c56acae56.ctex"]
+source_file="res://assets/GFX/Interactables/Level2 ButtonPressed.png"
+dest_files=["res://.godot/imported/Level2 ButtonPressed.png-d02c94fecf0547155fd373745e7a1aa5.ctex"]
 
 [params]
 

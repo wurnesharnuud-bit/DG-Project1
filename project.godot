@@ -19,6 +19,7 @@ config/icon="res://Assets/GFX/icon.svg"
 
 SFX="*uid://b0yrqb2us6nky"
 Flag="*uid://wpebghkvftw4"
+GlobalInput="*uid://cctw85j7eeafe"
 
 [display]
 

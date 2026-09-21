@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fgm00dtliisv"
-path="res://.godot/imported/endscreen.png-b8a267eeaa6b69f9d22691ec06d4ca22.ctex"
+path="res://.godot/imported/endscreen.png-9831bd5b6092f5458ec472528fb53e90.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/GFX/Background/endscreen.png"
-dest_files=["res://.godot/imported/endscreen.png-b8a267eeaa6b69f9d22691ec06d4ca22.ctex"]
+source_file="res://assets/GFX/Background/endscreen.png"
+dest_files=["res://.godot/imported/endscreen.png-9831bd5b6092f5458ec472528fb53e90.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 [ext_resource type="PackedScene" uid="uid://o2v70bqocyww" path="res://Resources/PlayerMain.res" id="1_e2f5g"]
 [ext_resource type="PackedScene" uid="uid://c0viu6viwmsr7" path="res://Resources/PlayerMinor.res" id="2_af45y"]
 [ext_resource type="PackedScene" uid="uid://ctrirppppgna3" path="res://Resources/AreaRoomSwitch.res" id="3_7usmf"]
-[ext_resource type="Texture2D" uid="uid://bqyts2lh15f6e" path="res://Assets/Tiles/block.png" id="4_bq0u7"]
-[ext_resource type="Texture2D" uid="uid://cmhiv33oexq6d" path="res://Assets/GFX/Background/bck.png" id="5_af45y"]
-[ext_resource type="Texture2D" uid="uid://bb2ofk1k2hdqk" path="res://Assets/GFX/Platforms/platform1.png" id="5_mi50p"]
-[ext_resource type="Texture2D" uid="uid://c2qn46c4107fw" path="res://Assets/Tutorials, Lables/character controls.png" id="7_assfc"]
-[ext_resource type="Texture2D" uid="uid://dreqtgp34hdmm" path="res://Assets/Tutorials, Lables/egg controls.png" id="8_6k5s8"]
-[ext_resource type="Texture2D" uid="uid://dythbddo3qpwt" path="res://Assets/GFX/Exits, Props/level0 Goal.png" id="9_assfc"]
+[ext_resource type="Texture2D" uid="uid://bqyts2lh15f6e" path="res://assets/tiles/block.png" id="4_bq0u7"]
+[ext_resource type="Texture2D" uid="uid://cmhiv33oexq6d" path="res://assets/GFX/Background/bck.png" id="5_af45y"]
+[ext_resource type="Texture2D" uid="uid://bb2ofk1k2hdqk" path="res://assets/GFX/Platforms/platform1.png" id="5_mi50p"]
+[ext_resource type="Texture2D" uid="uid://c2qn46c4107fw" path="res://assets/Tutorials, Lables/character controls.png" id="7_assfc"]
+[ext_resource type="Texture2D" uid="uid://dreqtgp34hdmm" path="res://assets/Tutorials, Lables/egg controls.png" id="8_6k5s8"]
+[ext_resource type="Texture2D" uid="uid://dythbddo3qpwt" path="res://assets/GFX/Exits, Props/level0 Goal.png" id="9_assfc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mi50p"]
 texture = ExtResource("4_bq0u7")

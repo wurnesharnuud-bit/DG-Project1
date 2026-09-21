@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7icnkvc1a57j"
-path="res://.godot/imported/level3 Nest.png-5fd835bb774d139cc8275cddf1a8db9a.ctex"
+path="res://.godot/imported/level3 Nest.png-8725174939c7f771d49f55227b2e3a3e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/GFX/Exits, Props/level3 Nest.png"
-dest_files=["res://.godot/imported/level3 Nest.png-5fd835bb774d139cc8275cddf1a8db9a.ctex"]
+source_file="res://assets/GFX/Exits, Props/level3 Nest.png"
+dest_files=["res://.godot/imported/level3 Nest.png-8725174939c7f771d49f55227b2e3a3e.ctex"]
 
 [params]
 
