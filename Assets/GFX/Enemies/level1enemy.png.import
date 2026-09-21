@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqyts2lh15f6e"
-path="res://.godot/imported/block.png-08c9fc3691fab1966fd07979e6f02d7e.ctex"
+uid="uid://cg60lutbabo4l"
+path="res://.godot/imported/level1enemy.png-381394fb7e9188fd04ad550e76172f04.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/block.png"
-dest_files=["res://.godot/imported/block.png-08c9fc3691fab1966fd07979e6f02d7e.ctex"]
+source_file="res://Assets/GFX/Enemies/level1enemy.png"
+dest_files=["res://.godot/imported/level1enemy.png-381394fb7e9188fd04ad550e76172f04.ctex"]
 
 [params]
 

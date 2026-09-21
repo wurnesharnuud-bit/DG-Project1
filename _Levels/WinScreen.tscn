@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://f7wjfyhq0q5j"]
 
-[ext_resource type="Texture2D" uid="uid://fgm00dtliisv" path="res://Assets/endscreen.png" id="1_vxmim"]
+[ext_resource type="Texture2D" uid="uid://fgm00dtliisv" path="res://Assets/GFX/Background/endscreen.png" id="1_vxmim"]
 [ext_resource type="AudioStream" uid="uid://da62e7s1jo3gw" path="res://SFX/Yousowinner!.mp3" id="2_4dt5x"]
 
 [node name="WinScreen" type="Node2D" unique_id=470672986]

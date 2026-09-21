@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqyts2lh15f6e"
-path="res://.godot/imported/block.png-08c9fc3691fab1966fd07979e6f02d7e.ctex"
+uid="uid://pqq2j0c87w23"
+path="res://.godot/imported/level2 ButtonDefault.png-15622d8a11a8798c1b40d8139166d416.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/block.png"
-dest_files=["res://.godot/imported/block.png-08c9fc3691fab1966fd07979e6f02d7e.ctex"]
+source_file="res://Assets/GFX/Interactables/level2 ButtonDefault.png"
+dest_files=["res://.godot/imported/level2 ButtonDefault.png-15622d8a11a8798c1b40d8139166d416.ctex"]
 
 [params]
 

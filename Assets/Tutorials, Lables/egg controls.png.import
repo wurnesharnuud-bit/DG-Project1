@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqyts2lh15f6e"
-path="res://.godot/imported/block.png-08c9fc3691fab1966fd07979e6f02d7e.ctex"
+uid="uid://dreqtgp34hdmm"
+path="res://.godot/imported/egg controls.png-44d384b636e84d7bbe0f641c037731b2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/block.png"
-dest_files=["res://.godot/imported/block.png-08c9fc3691fab1966fd07979e6f02d7e.ctex"]
+source_file="res://Assets/Tutorials, Lables/egg controls.png"
+dest_files=["res://.godot/imported/egg controls.png-44d384b636e84d7bbe0f641c037731b2.ctex"]
 
 [params]
 

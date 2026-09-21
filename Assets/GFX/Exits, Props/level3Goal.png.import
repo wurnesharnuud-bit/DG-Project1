@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqyts2lh15f6e"
-path="res://.godot/imported/block.png-08c9fc3691fab1966fd07979e6f02d7e.ctex"
+uid="uid://dmptas4f8375w"
+path="res://.godot/imported/level3Goal.png-35a37ae2fac84f90f697fc5642120e62.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/block.png"
-dest_files=["res://.godot/imported/block.png-08c9fc3691fab1966fd07979e6f02d7e.ctex"]
+source_file="res://Assets/GFX/Exits, Props/level3Goal.png"
+dest_files=["res://.godot/imported/level3Goal.png-35a37ae2fac84f90f697fc5642120e62.ctex"]
 
 [params]
 

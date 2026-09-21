@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqyts2lh15f6e"
-path="res://.godot/imported/block.png-08c9fc3691fab1966fd07979e6f02d7e.ctex"
+uid="uid://7icnkvc1a57j"
+path="res://.godot/imported/level3 Nest.png-5fd835bb774d139cc8275cddf1a8db9a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/block.png"
-dest_files=["res://.godot/imported/block.png-08c9fc3691fab1966fd07979e6f02d7e.ctex"]
+source_file="res://Assets/GFX/Exits, Props/level3 Nest.png"
+dest_files=["res://.godot/imported/level3 Nest.png-5fd835bb774d139cc8275cddf1a8db9a.ctex"]
 
 [params]
 

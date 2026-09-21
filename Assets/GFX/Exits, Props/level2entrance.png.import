@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqyts2lh15f6e"
-path="res://.godot/imported/block.png-08c9fc3691fab1966fd07979e6f02d7e.ctex"
+uid="uid://cej4wububij5m"
+path="res://.godot/imported/level2entrance.png-67846afd0761491897e12febf21133b5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/block.png"
-dest_files=["res://.godot/imported/block.png-08c9fc3691fab1966fd07979e6f02d7e.ctex"]
+source_file="res://Assets/GFX/Exits, Props/level2entrance.png"
+dest_files=["res://.godot/imported/level2entrance.png-67846afd0761491897e12febf21133b5.ctex"]
 
 [params]
 
